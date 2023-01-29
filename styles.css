@@ -23,18 +23,22 @@ html {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    background-image: url(../profile-card-component-main/images/bg-pattern-bottom.svg), url(../profile-card-component-main/images/bg-pattern-top.svg);
+    background-repeat: no-repeat;
+    background-position: 600px 150px, -300px -500px; 
+    background-color: var(--Dark-cyan);
 }
 
 .card-component {
     position: relative;
-    max-width: 375px;
+    max-width: 305px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
-    border-radius: 1em;
-    margin: 1em;
+    /*border: 1px solid black;*/
+    border-radius: 1rem;
+    margin: 1rem;
     text-align: center;
     background-color: hsl(0, 0%, 100%);
 }
@@ -42,38 +46,38 @@ html {
 .hero {
     width: 100%;
     height: auto;
-    border-radius: 1em 1em 0 0;
+    border-radius: 1rem 1rem 0 0;
     border-bottom: 1px solid var(--Dark-cyan);
 }
 
 .profile-picture {
     position: relative;
-    top: -2.75em;
+    top: -2.75rem;
     border-radius: 50%;
     max-width: 100%;
     height: auto;
-    border: 0.3em solid hsl(0, 0%, 100%);
+    border: 0.3rem solid hsl(0, 0%, 100%);
 }
 
 .name {
     position: relative;
-    top: -1.75em;
+    top: -1.75rem;
     font-weight: 700;
-    font-size: 1em;
+    font-size: 1rem;
     margin: 0 auto;
     color: var(--Very-dark-desaturated-blue);
 }
 
 .age {
     font-weight: 400;
-    margin: 0 0 0 0.5em;
+    margin: 0 0 0 0.5rem;
     color: var(--Dark-grayish-blue);
 }
 
 .city {
     position: relative;
-    top: -1.25em;
-    margin-bottom: 1em;
+    top: -1.25rem;
+    margin-bottom: 1rem;
     color: var(--Dark-grayish-blue);
 }
 
@@ -84,11 +88,11 @@ html {
     align-items: center;
     justify-content: space-evenly;
     border-top: 1px solid var(--Dark-gray);
-    padding: 0 1em;
+    padding: 0 1rem;
 }
 
 .stats {
-    margin: 1em;
+    margin: 1rem;
 }
 
 .stats-value {
@@ -98,6 +102,6 @@ html {
 
 .stats-heading {
     font-weight: 400;
-    font-size: 0.65em;
+    font-size: 0.65rem;
     color: var(--Dark-grayish-blue);
 }
